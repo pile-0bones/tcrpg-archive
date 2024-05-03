@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCRPG Archive - Lore</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="/images/sidebar-logo.png">
+  </head>
+  <body>
+    <div class="head-container width=100">
+    <header class="blockhead">
+    <h1 class=romancehead>TCRPG Archive</h1>
+    </header>
+    </div>
+    
+    <nav class="topnav">
+      <a href="/index.html">HOME</a>
+      <a href="/characters-home.html">CHARACTERS</a>
+      <a href="/lore-home.html" class="active">LORE</a>
+      <a href="/maps-home.html">MAPS</a>
+      <a href="/homebrew-home.html">HOMEBREW</a>
+      <a href="/sessions-home.html">SESSIONS</a>
+      <a href="/credits.html">CREDITS</a>
+    </nav>
+    <hr color="black" size="2" />
+    <hr color="black" size="1" />
+    
+    <div class="container">
+      <div class="content main-content">
+        <!--HEADER-->
+        <div class="lore-header">
+          <div class="lore-title">MYNEN</div>
+          <img class="lore-flag" src="/images/fl-mynen-korrena.png">
+          <div class="lore-title">KORRENA</div>
+        </div>
+
+        <div class="lore-container">
+          <!--SIDEBAR-->
+          <aside class="sessions-sidebar sessions-content lore-sidebar">
+            <div class="sessions-list open">
+              <div class="lore-item" onclick="showLore('l-intro')">
+                <div class="lore-item-title">Introduction</div>
+              </div>
+              <div class="lore-item" onclick="showLore('l-people')">
+                <div class="lore-item-tag left" id="history">(H)</div>
+                <div class="lore-item-title">People of the Land</div>
+                <div class="lore-item-tag right" id="history">(H)</div>
+              </div>
+              <div class="lore-item" onclick="showLore('l-newgods')">
+                <div class="lore-item-tag left" id="religion">(R)</div>
+                <div class="lore-item-title">The New Gods</div>
+                <div class="lore-item-tag right" id="religion">(R)</div>
+              </div>
+              <!--<div class="lore-item" onclick="showLore('l-military')">
+                <div class="lore-item-tag left" id="nation">(N)</div>
+                <div class="lore-item-title">The Mynen Military</div>
+                <div class="lore-item-tag right" id="nation">(N)</div>
+              </div>
+              <div class="lore-item" onclick="showLore('l-cataclysm')">
+                <div class="lore-item-tag left" id="legends">(L)</div>
+                <div class="lore-item-title">The Cataclysm</div>
+                <div class="lore-item-tag right" id="legends">(L)</div>
+              </div>-->
+              <div class="lore-item" onclick="showLore('l-comingnext')">
+                <div class="lore-item-tag left" id="info">(I)</div>
+                <div class="lore-item-title">Coming Next</div>
+                <div class="lore-item-tag right" id="info">(I)</div>
+              </div>
+            </div>
+          </aside>
+
+          <!--CONTENT PAGES-->
+          <div class="lore-content open" id="l-intro">
+            <h1>Introduction</h1>
+            <p class="indent">The year is 46,655 New Era (NE). The Material Plane: the living world, otherwise known as Iri-Salm; a vast stretch of corporeal space created in a brilliant convergence of divine inspiration. Its form is anchored to the center of the planar cosmology, haloed by the four Elemental Planes, reflected upon by the Feywild and Shadowfell, and surrounded by the strange beyond of the Astral Sea.</p>
+            <p class="indent">It is the smallest of all planes in existence, a near-infinitesimal speck in the face of the Grand Everything; yet its existence is the most important, the cosmological center of all that is and ever will be. It is the youngest of all planes in existence—though young and old mean nothing to the eternity of the Outer Planes, the strange spiritual realms whose presence knows no beginning nor ending. To call the Material Plane “young” is to point out exactly where its cosmic influence —its linear sense of time. It is the land of beginnings and endings, the bastion of causality, the land of the living--of the mortal. The existence of time permits the emergence of mortal life: a being which is born, lives, and inevitably dies. It is the perfect vessel for the creation of something entirely unique to Iri-Salm: a living soul.</p>
+            <p class="indent">No one living in this era can say with certainty how long the Material Plane has existed. Beyond only 60,000 or so years ago, accurate historical documentation has been lost to time. Yet, the hints of a history far, far older than what we know seems to lie deep within the world's corners…</p>
+            <p class="indent">This is the New Era, an epoch marked by the emergence of the New Gods. It is the extended age of innovation, the foundation upon which an age of enlightenment has been created. Over the past millennium, the mortal civilizations of Iri-Salm have exponentially grown in size and collective intelligence. The New Gods guide their subjects, providing their loyal worshippers with the tools and guidance needed to propel them into an advanced society. The greatest arcane mysteries are unearthed, new technology revolutionizes the common way of life, and bewildering discoveries of the natural world are endlessly being found.  And sitting at the center of it all is a powerhouse of a nation, the sacred land of adventurers and apostles, of tinkers and thieves, of mages and monarchs.</p>
+            <p>Beneath the surface of rocky shores, the low rumble of volcanic activity shakes the earth. At the mouth of an awe-strikingly enormous cavern, a soft whistling casts forth an icy beckoning to the depths. Soaring high above the sea of towering redwood trees, a giant silver-feathered bird casts a great radiant light across the night sky. This is Mynen Korrena. Sitting right along a powerful rift in the arcane Weave, this continent is a magnet for strange and fantastic phenomena. The greatest heroes, legendary weapons, and terrifying monsters of history all hailed from here. But one event stands out from the rest, to the pride of all the nations' people: Mynen Korrena is the birthplace of Lathander and Lithalaigh, the first of the New Gods.</p>
+
+            <h2>A Nation Divided</h2>
+            <p>Before Mynen Korrena was a single nation, it was a cluster of separate civilizations:</p>
+            <ul class="bulletlist">
+              <li>Ufoulan, the great Dwarven military state dominating the northern island</li>
+              <li>Syndulai, the collection of towering Elven cities across the southern region</li>
+              <li>Mynakeyna, the scattered tribes and villages of seafarers</li>
+              <li>The Dawn Republic, a kingdom of loyal followers of Lathander dwelling on the eastern island</li>
+              <li>Leistunderen, the wealthy empire sat squarely at the center of the continent</li>
+              <li>Eri Gi, a small civilization of the elusive Alligi</li>
+            </ul>
+            <p>Once a separated land rife with combat and chaos, the civilizations were in a constant state of hostility, their spiritual and ethical beliefs held in contempt of one another. War raged on for decades, causing bloodshed now unseen by Iri-Salm in centuries. But slowly, violence led to death, death led to fear, and fear led to cooperation--and now, the people of Mynen Korrena have been united under the red-peaked flag for nearly 4 millennia. Thanks to the ever-gracious and ever-watching eyes of the Millevian Council, peace and strength are a guarantee.</p>
+            <h2>Tags</h2>
+            <p>Each of the lore pages will have a tag (or in some cases, 2 tags) to categorize the type of information it holds. It's worth noting that, besides the "Information" tag, most pages will be written as something that could be found within a Mynen library or newspaper. The tags are as follows:</p>
+            <p>History <span id="history">(H)</span>: Pages tagged as History will contain historical events, cultural traditions, and anything else that can be  tangibly traced to Mynen Korrena's past.</p>
+            <p>Legends<span id="legends">(L)</span>: Pages tagged as Legends will contain anything of less concrete credibility than History: folklore, mythical beasts & places, prophecies, and the like. This will also include most magical phenomena.</p>
+            <p>Religion <span id="religion">(R)</span>: Pages tagged as Religion will be for anything relating to the gods & deities of the world.</p>
+            <p>Nation <span id="nation">(N)</span>: Pages tagged as Nation will be anything relevant to the current state of Mynen Korrena. Politics, power structures, towns & cities, etc.</p>
+            <p>Information <span id="info">(I)</span>: Other metatextual information. Stuff you'd see on a wiki rather than an in-game lore book.</p>
+            <h2>References</h2>
+            <p><a href="/maps-home#mynen-korrena">Country Map</a></p>
+          </div>
+          <div class="lore-content" id="l-people">
+            <h1>People of the Land</h1>
+            <p>Mynen Korrena is home to quite a variety of humanoid races. After centuries of cultural mingling, it's quite common for towns and cities to consist of all manner of humanoid. While just about every race native to the Material Plane (as well as others NOT native) can be found here, these are the most common:</p>
+            <h2>Dwarves</h2>
+            <p>Majorly residing in the northern region of Ufoulan, dwarves are a proud and headstrong people. Standing at around 4 feet tall, they tend to be stout and broad-chested, and excel in the art of facial hair growth. They are the original creators of the great forge Tesketalus, harnessing the heat of the neighboring volcano to create weapons and tools of legendary status. Many dwarves find themselves to be smiths, craftsmen, hunters, or members of the Mynen military.</p>
+            <p>All types of dwarvenkind dwell in Mynen Korrena, but one of them tends to be much more common: the Ash Dwarf. With skin tones varying from dark gray to reddish-tan, Ash Dwarves are best known for their incredible tolerance to heat. It is said that Ash Dwarves were the first intelligent species to ever set foot on the land. To this day, their ancestors' method of blacksmithing is still considered the greatest and most reliable. </p>
+            <p></p>
+            <h2>Humans</h2>
+            <p>Residing in just about every corner of the continent, humans are an easy folk to come by. They are most easily distinguished by their rounded ears and wide variety of body types. Passionate, driven, and intelligent, they have often been at the forefront of the world's technological innovations. Despite their relatively short lifespans of 80-90 years, they often prove themselves perfectly capable of making an impact--sometimes even more than the longer-living races. Above all, humans are adaptable, both in body and mind. Many humans tend to work as engineers, merchants, and inventors.</p>
+            <p>A curiosity of the human race is their innate lack of connection to magic. Unlike nearly all known sapient creatures, their bodies and minds seem to be formed entirely out of mundane material. While they are capable of learning to control the Weave, or being imbued with it through outside forces, their natural-born state is completely non-magical. Old tales once claimed that the reason for such a phenomenon was that humans lacked souls, though this belief has since been cast aside by the general populace.</p>
+            <p>As a result, where humans tend to excel in the arts and sciences, they also tend to lack in arcane prowess. A powerful human mage is a rare sight to see--and one to be taken very, very seriously.</p>
+            
+            
+            <h2>Orcs</h2>
+            <p>Startlingly tall and frighteningly tough, orcs are the gentle giants of Mynen Korrena. Characterized by skin tones of green, blue, and brown, a sharp-toothed underbite, and a natural strength that rivals a bear, they can be intimidating at first, but anyone who's crossed paths with one knows their looks are deceiving. Most all orcs value peace and repose, and are almost always more likely to end fights rather than starting them. These qualities make them great farmers, builders, and other jobs requiring manual labor.</p>
+            <p>Orcs are also known for a distinct connection with the natural world. They are quick to form bonds with animals, and have a particular knack for navigating difficult natural terrain. They tend to avoid the commotion of large cities in favor of the quiet tranquility of the countryside.</p>
+            <p>Incidentally, orcish medicine is the most advanced in the nation. Their extensive traditional knowledge of the lands' herbs and flora have helped them develop cures for all manner of disease both mundane and arcane. An orc apothecary is the best bet for treating any ailment, from hair loss and insomnia to broken bones and burning fevers.</p>
+            <h2>Alligi</h2>
+            <p>While all the races tend to be spread across the entire land of Mynen Korrena, there does seem to be one exception: the Alligi. Residing almost entirely within their original birthing grounds of Iyeri Gi, the Alligi are a mysterious and secluded bunch. Alligi can be spotted by their impressive height, on average standing about 7 feet tall, in conjunction with a thin, boney frame. Their fingers are delicate and spindly, their faces long and gaunt. Their pale skin radiates a faint blue glow in the moonlight.</p>
+            <p>The Alligi are also unique in their way of communicating. While they are capable of vocal speech like any other humanoid, the Alligi language is composed entirely of whistling, using changes in pitch, volume, and rhythm to convey their message. Their excellent lung capacity aids in this--and conversely makes the language incredibly difficult for other races to learn.</p>
+            <p>A common nickname for the elusive creatures are “descendants of death.” For wherever they go, it seems that death often follows. Some consider passing an Alligi while traveling a bad omen; others will shun or even attack Alligi who enter their community. Despite this, they also tend to carry with them a light, carefree attitude. Those who aren't repelled by their uneasy aura will be delighted with good company.</p>
+            <h2>Other Races</h2>
+            <p><strong>Dragonborn: </strong>Most commonly found atop the Ufoulan peaks, or traversing the sands of Qurruk, dragonborn are an intelligent, albeit rowdy lot. Resembling their draconic ancestors, dragonborn have an almost magnetic pull toward riches and excitement, always looking for the next thrill.</p>
+            <p><strong>Halflings: </strong>Mostly hailing from other regions of the Material Plane, halflings are a wonderfully friendly lot. Their rich, culinary-centric culture makes them highly sought after as chefs, though many prefer to live their lives on the road.</p>
+            <p><strong>Goblins: </strong>These pesky critters have been a thorn in the side of travelers as long as anyone can remember. With the intelligence of an ape and a ravenous greed for treasure, goblins tend to travel in large packs, setting up outposts near small towns that they promptly pillage and loot. No matter how many times they're killed off or scared away, they always seem to come back in greater numbers. Like rats. Green  rats.</p>
+            <p><strong>Tieflings: </strong>With the flames of the Nine Hells coursing through their blood, tieflings are a widely feared group. The first tieflings were mysteriously born simultaneously by the hundreds, all to mothers with no apparent infernal ties. Since that time several millennia ago, they have slowly grown in population across the continent.</p>
+            <p><strong>Gnomes: </strong>These crafty fey fellows are a rare but welcome sight. The few gnomish travelers who have made it to the Material Plane will often find the nearest civilization and set up shop, working as a tinker and craftsmen for their new community. Just make sure they don't snag any loose change while your head is turned!</p>
+            <p><strong>Changelings: </strong>More parasites than people, this lot is one to look out for. With the ability to shapechange into humanoids of any kind, they are beings of sadistic trickery. Often posing as escorts or people in need, changelings will lure unsuspecting citizens into privacy, where they will inflict a terrible curse: their next offspring will become a changeling themself. While exceedingly rare, Changelings are still something to be very, very wary of.</p>
+            <p><strong>Centaur: </strong>Horse people. Horse people. Horse people. Horse People</p>
+          </div>
+          <div class="lore-content" id="l-newgods">
+            <h1>The New Gods</h1>
+            <p>Thousands of years ago, the world was unrecognizable to what it is today. The lands were endlessly scorched by the wrath of the elements. Great thunderstorms flooded cities; Volcanic eruptions laid waste to the wildlife; Enormous tsunamis cast its victims out to sea. There was no order, no hope for mortal life to flourish without being squashed by the forces of nature. This was the land of the Old Gods.</p>
+            <p>The reign of the Old Gods is no more. Thousands of years ago, they withdrew from the mortal world. The plane was godless for years, devoid of hope… But from the ashes of desolation, something new arose. Five mortal lives ascended, their perfect and virtuous souls imbued with divine power. They witnessed the pain and suffering our world had faced, and sought to make it better: and thus, the New Era began, and the New Gods were born.</p>
+            <p>Mynen Korrena celebrates the New Gods in all their glory. Whether you follow one, several, or all of them, you have the freedom to bask in the glory of any divinity you like. However, to take the path of belief to other idols is strongly discouraged. Beings of divine power that stray from the New Gods' light are deceitful and cunning.</p>
+            <h2>Lathander</h2>
+            <p>Otherwise known as The Morninglord, Lathander was the firstborn of the New Gods, and still the most widely worshiped. His domain reaches far, being the god of rebirth, renewal, dawn, vitality, and righteousness. Lathander has been the shining light of hope to countless mortals, driving them forth through the most difficult of times.</p>
+            <p>The tenets of Lathanderian faith revolve around purity and goodness. Practicing followers swear to be virtuous and forgiving, always offering help to those who need it. Prayers take place at the break of dawn, with massive gatherings every morning to soak in the glory of the sunrise. Temples to Lathander have a strict hierarchy, with the highest ranking priest being known as the Sunrise Lord. Currently, the title is owned by Sunrise Lord Reinix, widely celebrated for his passionate, inspiring sermons.</p>
+            <p>Once a mortal himself, Lathander was born in Euphorala, now a sacred land for his followers. Though the story of his mortal life has largely been lost to time, it is said that he was a legendary swordsman with a heart of gold. </p>
+            <h2>Lithalaigh</h2>
+            <p>Lithalaigh, the Angel of the Hearth, watches over her followers through the safety and warmth of the home. The goddess of family, safety, nourishment, parenthood, dusk, and sleep, she is especially popular to the common folk of Mynen Korrena. </p>
+            <p>Temples to Lithalaigh are quite small compared to other religions. Rather than committing to large, public gatherings, followers of Lithalaigh prefer to practice their faith within their own home. A shrine to Lithalaigh will sit at the heart of the home (usually a fireplace or living room), and everyone in the household will have their prayers together before they sleep.</p>
+            <h2>Vestos</h2>
+            <p>God of travelers, horizons, wonder, good fortune, & riches. Quite popular among merchants and sailors, Vestos provides good weather and safe passage to their followers who travel great distances. They encourage curiosity and independence, favoring those with the bravery to explore uncharted lands. Many citizens of the Mynekeynan Isles worship Vestos, as seafaring is a regular part of their livelihood.</p>
+            <p>Before and after each journey, followers will leave an offering for Vestos, usually in the form of gold or goods. These offerings are placed at the border of wherever they begin their trip--most cities will have pedestals at their entrances for such cases.</p>
+            <p>Most followers of Vestos practice their faith for practical reasons. They travel for a living, or work with travelers, and simply wish for safety. However, the most devout believers, such as the clerics of Vestos, are true free spirits. They never stay in one place, always searching for new horizons. The spirit of wanderlust lives deep in their souls.</p>
+            <h2>Almuuna</h2>
+            <p>God of art, voice, creativity, wine, and beauty, Almuuna is the celebrated patron saint of artists everywhere.</p>
+            <p>Worship rituals to Almuuna are deeply personal and intimate; there is no single “correct” way to show your faith. Anyone who embraces their creativity, allowing their soul to express itself freely and honestly, is welcome in Almuuna's faith. Large communities of believers will hold frequent “Convergent Exhibitions”, in which everyone gathers to socialize, drink, and share in one another's artistic pursuits.</p>
+            <h2>Eucellor</h2>
+            <p>God of the forge, craftsmanship, honor, self-perfection, and the blade, Eucellor's followers are widely represented by the smiths and soldiers of Mynen Korrena. Under his guidance, worshippers strive for perfection in their craft, always attempting to do better than they have before. The highest honor for a follower of Eucellor is to dedicate your life--and your death--to your cause.</p>
+          </div>
+          <div class="lore-content" id="l-military">
+            <h1>The Mynen Military</h1>
+            <p></p>
+          </div>
+          <div class="lore-content" id="l-cataclysm">
+            <h1>The Cataclysm</h1>
+            <p></p>
+          </div>
+          <div class="lore-content" id="l-comingnext">
+            <h1>Coming Next</h1>
+            <p>Here's what I'm working on next, which you can come back to see once I've finished:</p>
+            <ul class="bulletlist">
+              <li>The Mynen Military (almost done)</li>
+              <li>The Cataclysm (almost done)</li>
+              <li>Arcane Practices</li>
+              <li>The Millevian Council</li>
+              <li>NPCs</li>
+              <li>Iyeri Gi & the Alligi</li>
+              
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
